@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'courses',
     'django.contrib.admin',
     'django.contrib.auth',
-    'django.contrib.contenttypes',   # <----- this is content type 
+    'django.contrib.contenttypes', # <----- this is content type 
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
