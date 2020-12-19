@@ -9,9 +9,8 @@ def all_course(request):
 	data=CourseSerializer(all_course,many=True).data
 	return Response({'data':data})
 
-'''@api_view(['GET'])
+@api_view(['GET'])
 def course_detail(request,id):
 	course_detail=Course.objects.get(id=id)
 	data=CourseSerializer(course_detail).data
 	return Response({'data':data})
-'''
